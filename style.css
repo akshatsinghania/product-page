@@ -18,6 +18,7 @@
   display: flex;
 }
 .gallery {
+  position: relative;
   flex-basis: 47%;
   background: #241e20;
   transform: scale(1.08);
@@ -137,4 +138,18 @@ form button {
 }
 .controls {
   position: absolute;
+  bottom: 40px;
+  right: 20px;
+}
+.btn {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 10px;
+  cursor: pointer;
+}
+.btn.active {
+  background: #553ff0;
 }
